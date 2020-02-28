@@ -1,7 +1,5 @@
 const btnInit = document.getElementById("BtnIniciar")
 const btnZerar = document.getElementById("BtnZerar")
-const btnParar = document.getElementById("BtnParar")
-const body = document.getElementById("bodyes")
 
 var chronometer_id = 0;
 
@@ -27,7 +25,7 @@ function startChronometer() {
     else if (s < 59) { d= 0; s+=1; }
     else if (m < 59) { d= 0; s=0; m+=1; }
     else if (h < 1000) { d= 0; s=0; m=0; h+=1; }
-    else { alert('Tempo maximo atingido! 24 horas.')}
+    else { alert('oi')}
 
  }, 100);
 }
@@ -49,5 +47,3 @@ function zerarChronometer() {
 
 btnInit.onclick = startChronometer;
 btnZerar.onclick = zerarChronometer;
-
-
