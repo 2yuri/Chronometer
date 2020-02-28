@@ -1,0 +1,26 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #dddddd;
+  font-size: 35px;
+  
+}
+
+#BtnZerar {
+  display: none;
+}
+
+section button {
+  border-radius: 6px;
+  background-color: white;
+  color: black;
+  width: 200px;
+  height: 35px;
+  border-color: black;
+  font-size: 20px;
+}
+section button:hover{
+  background-color: black;
+  color: white;
+  border-color: black;
+}
