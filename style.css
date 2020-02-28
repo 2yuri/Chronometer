@@ -40,6 +40,7 @@ button:hover{
   background-color: black;
   color: white;
   border-color: black;
+  transition: all 1s;
 }
 
 /* DISPLAY BUTTON OFF*/
