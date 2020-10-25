@@ -1,5 +1,5 @@
 body {
-  background-color: #ddddddff;
+  background-color: rgb(0, 0, 0);
 }
 /* BUTTONS */
 
@@ -16,15 +16,18 @@ header {
 
 h1 {
   font-size: 50px;
-  color: black;
+  color: white;
   margin: 3px 3px;
 }
 
 p {
+  background: white;
+  padding: 0 40px;
+  border-radius: 8px;
   font-size: 80px;
   margin-top: 30vh;
   font-weight: 900;
-  color: rgb(1,2,3);
+  color: rgb(0, 0, 0);
 }
 
 button {
@@ -37,7 +40,7 @@ button {
   font-size: 20px;
   cursor: pointer;
 }
-button:hover{
+button:hover {
   background-color: black;
   color: white;
   border-color: black;
